@@ -37,10 +37,23 @@ body{
 
 .conteudo_meio img{
     width: 100%;
-    height: 500px;
-    
-    
+    height: 500px;  
 }
+
+.texto_img{
+    background: #000;
+    background-size: 500px;
+    color: rgba(75,245,228,0.9);
+    text-shadow: 3px 2px rgba(75,245,228,0.2);
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 130px;
+    font-weight:bold;
+    font-family: Myriad Pro;
+    font-size:50px;
+    text-transform: uppercase;
+}
+
 
 .tabela{
     margin: 10px 240px 0px 200px;
