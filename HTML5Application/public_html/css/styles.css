@@ -1,79 +1,41 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-    background-color: #999;
-    margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
+    background: url(../img/background.jpg);
+    overflow-x: hidden;
+    font-family: arial, helvetica, sans-serif;
+
 }
-.menu{
-    background-color: rgba(75,245,228,0.5);
-	background-size: 100%;
-	position: fixed;
-	width: 100%;
-	float: left;
-        margin: 0px;
-        
-        
-}
-.menu .barra_menu ul{
-	float: right;
-	margin: 10px 365px 10px 0;
+.nav{
+    position: fixed;
+    background-color: rgba(148,214,131, 0.5);      
 }
 
-.menu .barra_menu ul li{
-	display: inline;
-	padding: 10px 0 0 39px;
-	float: none;
-}
-.menu .barra_menu ul li a{
-	text-decoration: none;
-	color: #222;
-	font-weight:bold;
-	font-family: Myriad Pro;
-	font-size:14px;		
-}
-
-.menu .barra_menu ul li a:hover{
-	color: #FFF;
-	padding: 0;	
-}
-
-.conteudo_meio img{
-    width: 100%;
-    height: 500px; 
-    border-bottom: 10px solid #000;
-}
-
-.texto_img{
-    
-    background: #000;
-    background-size: 500px;
+.navbar a{
     color: #FFF;
-    text-shadow: 3px 2px rgba(75,245,228,0.2);    
-    position:absolute;
-    margin-top: -150px;
-    margin-left: 130px;
+}
+
+.navbar a:hover{
+    color: rgb(148,214,131);
     font-weight: bold;
-    font-family: Myriad Pro;
-    font-size:50px;
 }
 
-
-.tabela{
-    margin: 10px 240px 0px 200px;
+.conteudo_meio{
+    background: url(../img/img_home.png) no-repeat;
+    background-size:cover;
+    padding-top: 401px;
 }
-
 .esquerdo_inferior{
+    float: left;
+    width: 47%;
+    padding: 0 1.7em 1.7em 1.7em;
     border: 1px solid #000;
     background-color: rgb(148,214,131);
-    background-size: 100%;
-    width: 100%;
     margin: 5px;
 }
 
 .direito_inferior{
+    padding: 0 1.7em 1.7em 1.7em;
     border: 1px solid #000;
     float:right; 
     width: 47%;
@@ -92,10 +54,35 @@ body{
 
 
 .texto_empresa{
-  text-align:justify;
-  margin: 0px 0px 0px 15px;  
+    padding: 0.3em 1.7em 1.7em 1.7em;
+    background-color: rgb(148,214,131);
+    text-align:justify;
+    margin: 0px 0px 0px 15px;  
+}.texto_empresa h1{
+    text-align: center;
+    font-weight: bold;
 }
 
-.rodape{
-    border-top: 1px solid #000;
+.texto_noticias{
+    padding: 0.3em 1.7em 1.7em 1.7em;
+    background-color: rgb(148,214,131);
+    text-align:justify;
+}.texto_noticias h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.texto_servicos{
+    padding: 0.3em 1.7em 1.7em 1.7em;
+    background-color: rgb(148,214,131);
+    text-align:justify;
+}.texto_servicos h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: rgb(148,214,131);
+    text-align-last:center;
 }
